@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { tap } from 'rxjs';
 
 import { Course } from '../model/course';
 
@@ -7,9 +9,16 @@ import { Course } from '../model/course';
 })
 export class CoursesService {
 
-  constructor() { }
+  private readonly API = '/assets/courses.json';
 
-  list(): Course[] {
-    return [{ _id: "1", name: "Angular", category: "front-end"}];
+  constructor(private httpClient: HttpClient) { }
+
+  list() {
+    return this.httpClient.get<Course[]>(this.API)
+    .pipe(
+      tap(courses => console.log(courses))
+    ); //Observable object
+    // o pipe serve pra debugar no rxjs e so funciona se o servidor for nao reativo
+    //ou seja, se nao ficar de tempos em tempos atualizando as informacoes
   }
 }
