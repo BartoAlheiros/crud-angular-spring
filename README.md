@@ -2,8 +2,9 @@
 
 ## Setup do projeto:
 
-<summary>:zap: Angular
-</summary>
+<details><summary>:zap: Angular
+</summary>Peek a boo!</details>
+
 
 ### 1 - Instale o Node.js
 #### Versão do Node utilizada para iniciar o projeto: 18.17.0
