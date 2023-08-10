@@ -23,5 +23,5 @@
 
 </details>
 
-#### Após esses passos o projeto deve estar executando. Em caso de dúvidas, mail-me: alheirosb@gmail.com
+#### Após esses passos o projeto deve estar executando. Em caso de dúvidas, mail-me: <a href="alheirosb@gmail.com">:e-mail:</a>
 #### 🖖
