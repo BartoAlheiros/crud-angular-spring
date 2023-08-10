@@ -23,5 +23,5 @@
 
 </details>
 
-#### Após esses passos o projeto deve estar executando, dúvidas, envie e-mail(página inicial desta conta do Gihub).
+#### Após esses passos o projeto deve estar executando. Em caso de dúvidas, mail-me: alheirosb@gmail.com
 #### 🖖
